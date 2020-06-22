@@ -1,0 +1,20 @@
+label,h1,a {
+  color:red;
+}
+ input{
+   width: 500px;
+   text-align: center;
+   border: 2px solid red;
+ }
+
+ .btn {
+   background-color: red;
+   color: white;
+   width: 100px;
+ }
+
+ div {
+  width: 500px;
+
+  margin-top: 5px;
+ }
