@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'planets/ajout', component: AddPlanetComponent},
   { path: 'planets/:id', component: PlanetDetailComponent},
   { path: 'vaisseaux/ajout', component: AddVaisseauComponent},
+
   { path: 'vaisseau/:id', component: VaisseauDetailComponent}
   ];
 

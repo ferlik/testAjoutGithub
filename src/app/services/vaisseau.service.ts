@@ -19,4 +19,7 @@ export class VaisseauService {
   getOneVehiculsById (id:number):Vaisseau {
     return this.vehiculs.filter(vehiculs => vehiculs.id===id)[0];
   }
+  addVaisseau(vaisseau: Vaisseau): void {
+    this.vehiculs.push(vaisseau);
+  }
 }
